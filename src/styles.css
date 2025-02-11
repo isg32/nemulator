@@ -1,0 +1,51 @@
+/* styles.css */
+
+.nokia-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+  }
+  
+  .nokia-phone {
+    width: 200px;
+    background: #000;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .screen {
+    background: #88c0d0;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+  
+  .keypad button {
+    padding: 10px;
+    font-size: 18px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .keypad button:hover {
+    background: #666;
+  }
+  
