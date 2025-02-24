@@ -19,8 +19,8 @@
   }
   
   .screen {
-    background: #88c0d0;
-    height: 50px;
+    background-image: url("/Dwnya.jpeg");
+    height: 150px;
     line-height: 50px;
     margin-bottom: 10px;
     border-radius: 5px;
